@@ -1,0 +1,414 @@
+body{
+    max-width:1440px;
+    padding:0;
+    margin:auto;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 17.19%, rgba(250, 255, 0, 0) 76.04%), #FFDB00;
+}
+header{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    
+    padding:20px 36px;
+    
+}
+.listHead{
+    display: flex;
+    flex-direction: row;
+    list-style:none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    padding: 0px;
+    
+}
+.listHead li{
+    padding-right: 28px;
+}
+.listHead li a{
+    color:#000000;
+}
+#logo{
+    display: flex;
+    flex-direction:row;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #000000;
+}
+#buttNav{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+}
+body a{
+    text-decoration: none;
+}
+/*Кнопка входа*/
+.buttNoback{
+	display: flex;
+	
+	align-items: center;
+    border: 1px solid #000000;
+	color: black;	
+	background:none;
+    width:150px;
+    height:40px;
+    border-radius: 6px; 	
+}
+/*Кнопка регистрации*/
+.buttBack{
+    display: flex;
+	
+	align-items: center;
+		
+	background: black;
+	margin-left: 20px;
+	border-radius: 6px; 
+	
+    
+	width:150px;
+    height:40px;
+	color: #FFF;
+	
+}
+.buttNoback p, .buttBack p{
+    
+    margin: auto;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+#welcum{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:100%;
+    height: 750px;
+    
+    background: url(bgIndex.png) no-repeat;
+    
+    background-size: cover;
+
+}
+#welcum img{
+    display: flex;
+    
+    width: 40%;
+    max-height: 500px;
+    margin-top: 100px;
+    padding-right: 8%;
+}
+#welcum #title,#info{
+    width: 450px;
+    padding-left: 110px;
+    /* Gray 6 */
+
+    color: white;
+}
+#welcum #title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+
+    margin-top: 276px;
+    margin-bottom: 61px;
+}
+#welcum #info{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;   
+
+}
+#zayavka{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#zayavka p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 140.62%;
+    /* or 42px */
+
+    text-align: center;
+    max-width: 500px;
+}
+#fields{
+    display: inline-block;
+    margin:auto;
+}
+.textField{
+    max-width:360px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 140.62%;
+    padding:5px;
+}
+#marg{
+    margin-right: 81px;
+}
+#zayavka .buttBack{
+    display:inline;
+    padding:15px 50px;
+    
+    
+}
+#zayavka a{
+    margin-top: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+}
+
+#afisha{
+    margin-top: 100px;
+    background: linear-gradient(180deg, rgba(255, 184, 0, 0.4) 18.23%,
+     #F0DC2B 100%), 
+     #FFA200;
+}
+.itemAfisha{
+    display: flex;
+    flex-direction:row;
+    
+}
+.itemAfisha img{
+    width:100%;
+}
+.itemText{    
+   
+    margin:auto 0; 
+    padding-left: 5%;
+    padding-right: 15%;
+    
+}
+.itemText p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom:50px;
+}
+.itemText h2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 34px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.itemText .buttNoback{
+    display:inline;
+    padding:15px 30px;  
+    margin-top: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+}
+
+footer{
+    
+    width:80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#behindTheWall{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .listHead{
+    font-weight: bold;
+    font-size: 14px;
+}
+hr#theWall{
+    
+    border: #000000 1px solid;
+}
+p#Contacts{
+    width:30%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0;
+}
+p#end{
+    margin-top: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+
+}
+
+
+/*Artists*/
+
+.main{
+    background: url(bgArtist.png) no-repeat;
+    
+    background-size: cover;
+    background-color: none;
+}
+.lilImg{
+    display: flex;
+    width:50%;
+    margin:0;
+    align-items: center;
+    
+}
+.lilImg img{
+    width:40%;    
+    margin:auto;
+}
+.lilArt img{
+    width:70%;
+}
+.main .itemText{
+    background: #FFA200;
+    width:50%;
+    padding:0px;
+    padding-top: 30px;
+    margin: 0;
+    min-height:600px;
+}
+.main .itemText h2,.main .itemText p{
+    padding-left: 10%;
+    padding-right: 8%;
+}
+
+#artist img{
+    width:50%;
+}
+#artist .itemText{
+    font-size: 18px;
+}
+
+
+
+/*Галлерея*/
+#contentGall{
+    background: #FFB800;
+    padding: 30px 0px;
+}
+#titleGall{
+    width:50%;
+    margin: 50px auto;
+}
+#titleGall h2, #titleGall p{
+    display: block;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+}
+#titleGall h2{
+    font-size: 24px;
+    line-height: 28px;
+}
+.coupleOfImg{
+    margin: 100px 30px;
+    display:flex;
+    justify-content: space-around;
+}
+
+
+/*Логинов*/
+
+#contentLogin{
+    background: #FFB800;
+    padding-top:150px;
+    padding-bottom:200px
+}
+.enterBox{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    width:25%;
+    margin: auto;
+    text-align: center;
+}
+.enterBox a,input,p{   
+    
+    margin:15px auto;
+    
+}
+.enterBox .buttBack p{
+    font-size: 36px;
+    
+}
+.enterBox .buttBack{
+    font-size: 36px;
+    width: 85%;
+    padding: 5px;
+}
+
+/*regist*/
+
+#about{
+    margin: 15px auto;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    height:150px;    
+    width:82%;    
+    padding: 5px;
+    border-radius: 6px;
+    resize: none;
+}
+#contentReg .buttBack p{
+    font-size: 26px;
+}
